@@ -3,7 +3,11 @@ export const metadata = {
   description: 'Қазақша виртуалды зертхана',
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="kk">
       <body>{children}</body>
